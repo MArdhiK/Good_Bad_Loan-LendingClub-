@@ -8,3 +8,6 @@ My task is to predict whether the customer belongs to the category of good credi
 There many features, and some of them contains data leakage from the future, so I choose the feature carefully, based on the description   
 To evaluate my model, I use ROCAUC Score
 
+<img src=ROCAUC.jpg width=300>
+
+This model, while far from perfect, can provide a somewhat informed prediction of the likelihood that a customer belongs to good or bad creditor, using only data available to potential investors before the loan is fully funded.
